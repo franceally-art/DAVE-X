@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://davexpair.onrender.com">
+  <a href="https://davexultra.zone.id">
     <img src="https://img.shields.io/badge/Pair_Site_One-Get_Code-purple?style=for-the-badge&logo=whatsapp" alt="Pair Site One" width="200">
   </a>
 
