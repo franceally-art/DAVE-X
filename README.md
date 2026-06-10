@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.ibb.co/NnFRdWxm/upload-1771680267489-4b4129c8-jpg.jpg" alt="Dave-X" width="300"/>
+  <img src="https://i.ibb.co/NnFRdWxm/upload-1771680267489-4b4129c8-jpg.jpg" alt="france-tech" width="300"/>
 </p>
 
 <p align="center">
@@ -12,7 +12,7 @@
   </a>
 
   <a href="https://github.com/Davex-254/DAVE-X/fork">
-    <img src="https://img.shields.io/badge/Fork-DAVE--X-blue?style=for-the-badge&logo=github" alt="Fork DAVE-X" width="200">
+    <img src="https://img.shields.io/badge/Fork-DAVE--X-blue?style=for-the-badge&logo=github" alt="Fork France-Tech" width="200">
   </a>
 
   <a href="https://github.com/Davex-254/DAVE-X/archive/refs/heads/main.zip">
@@ -22,7 +22,7 @@
 
 ## 📡 DEPLOYMENT SITES
 
-<p align="center">Deploy your <strong>DAVE-X Bot</strong> with one click on your favorite hosting platforms.</p>
+<p align="center">Deploy your <strong>france-tech Bot</strong> with one click on your favorite hosting platforms.</p>
 
 <div align="center">
   <table>
