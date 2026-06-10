@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title>france-tech | WhatsApp Bot</title>
-  <!-- Google Fonts + simple reset -->
+  <title>france-tech | WhatsApp Bot by Dave Tech</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
   <style>
     * {
@@ -23,10 +22,8 @@
     .container {
       max-width: 1200px;
       margin: 0 auto;
-      backdrop-filter: blur(2px);
     }
 
-    /* header image & title */
     .hero {
       text-align: center;
       margin-bottom: 2rem;
@@ -44,7 +41,6 @@
       transform: scale(1.01);
     }
 
-    /* button row (flex responsive) */
     .button-strip {
       display: flex;
       flex-wrap: wrap;
@@ -67,7 +63,6 @@
       text-decoration: none;
       transition: all 0.25s;
       border: 1px solid rgba(255, 255, 255, 0.15);
-      letter-spacing: 0.3px;
     }
 
     .btn-purple {
@@ -99,7 +94,6 @@
       filter: brightness(1.05);
     }
 
-    /* deployment grid (platforms) */
     .section-title {
       text-align: center;
       font-size: 1.8rem;
@@ -139,9 +133,9 @@
       text-decoration: none;
       font-weight: 600;
       font-size: 0.9rem;
+      color: #e0e7ff;
     }
 
-    /* tutorial + video box */
     .tutorial-section {
       background: rgba(0, 0, 0, 0.35);
       border-radius: 48px;
@@ -149,10 +143,6 @@
       margin: 50px 0 40px;
       text-align: center;
       border: 1px solid rgba(255,255,240,0.1);
-    }
-
-    .video-badge {
-      margin: 24px 0 12px;
     }
 
     .youtube-link {
@@ -166,6 +156,8 @@
       align-items: center;
       gap: 12px;
       transition: 0.2s;
+      color: white;
+      text-decoration: none;
     }
 
     .youtube-link:hover {
@@ -173,7 +165,6 @@
       transform: scale(1.02);
     }
 
-    /* author + movies + important */
     .author-box {
       background: linear-gradient(105deg, #111827, #0f172a);
       border-radius: 40px;
@@ -188,8 +179,12 @@
     }
 
     .author-info h3 {
-      font-size: 1.7rem;
+      font-size: 1.8rem;
       font-weight: 800;
+      background: linear-gradient(135deg, #f0f9ff, #c4b5fd);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
     }
 
     .movie-link {
@@ -224,26 +219,36 @@
       text-align: center;
       margin-top: 55px;
       font-size: 0.85rem;
-      opacity: 0.7;
+      opacity: 0.8;
       border-top: 1px solid #1e2a3e;
       padding-top: 28px;
+    }
+
+    .dave-badge {
+      display: inline-block;
+      background: #2d3e6e80;
+      padding: 4px 12px;
+      border-radius: 30px;
+      font-size: 0.75rem;
+      font-weight: 500;
+      margin-top: 8px;
+      backdrop-filter: blur(4px);
     }
 
     @media (max-width: 680px) {
       .button-strip { gap: 12px; }
       .btn { padding: 8px 18px; font-size: 0.85rem; }
       .section-title { font-size: 1.5rem; }
+      .author-info h3 { font-size: 1.4rem; }
     }
   </style>
 </head>
 <body>
 <div class="container">
-  <!-- header image: updated to new link from user -->
   <div class="hero">
     <img src="https://i.postimg.cc/SN7hNHj7/825d6f2ca39ea3bef8f4ee16b3d7f961.jpg" alt="france-tech bot banner">
   </div>
 
-  <!-- button row: Pair sites and fork/download -->
   <div class="button-strip">
     <a href="https://ultragenerator.onrender.com/" class="btn btn-purple" target="_blank">✨ Pair Site One</a>
     <a href="https://davex254-sessions.onrender.com" class="btn btn-blue" target="_blank">🔷 Pair Site Two</a>
@@ -251,8 +256,7 @@
     <a href="https://github.com/franceally-art/DAVE-X/archive/refs/heads/main.zip" class="btn btn-dark" target="_blank">📦 Download ZIP</a>
   </div>
 
-  <!-- Deployment platforms -->
-  <div class="section-title">🚀 ONE-CLICK DEPLOYMENT</div>
+  <div class="section-title">🚀 DEPLOYMENT SITES (ONE CLICK)</div>
   <div class="deploy-grid">
     <div class="deploy-card"><a href="https://dashboard.heroku.com/new?template=https://github.com/franceally-art/DAVE-X" target="_blank"><img src="https://img.icons8.com/color/48/heroku.png" alt="heroku"><br>Heroku</a></div>
     <div class="deploy-card"><a href="https://replit.com/github/franceally-art/DAVE-X" target="_blank"><img src="https://img.icons8.com/color/48/replit.png" alt="replit"><br>Replit</a></div>
@@ -263,59 +267,58 @@
     <div class="deploy-card"><a href="https://dashboard.katabump.com/auth/login#ce51a9" target="_blank"><img src="https://img.icons8.com/ios-filled/50/cloudflare.png" alt="katabump"><br>Katabump</a></div>
   </div>
 
-  <!-- tutorial video with YouTube link (updated channel) -->
+  <!-- TUTORIAL + YT + WA Channel (updated) -->
   <div class="tutorial-section">
     <div class="video-badge">
       <a href="https://youtu.be/wJKMV0BSqpE?si=6Y11rPD0t2ykoxB8" target="_blank" class="youtube-link">
-        ▶️ WATCH FULL TUTORIAL 2026
+        ▶️ WATCH TUTORIAL 2026
       </a>
     </div>
     <p style="margin-top: 18px; max-width: 600px; margin-left: auto; margin-right: auto;">
-      <strong>How to deploy france-tech bot on panel – step-by-step guide.</strong><br>
-      Get your WhatsApp bot running in minutes.
+      <strong>How to deploy france-tech bot on panel – Dave Tech step-by-step guide</strong><br>
+      Get your WhatsApp bot running smoothly.
     </p>
-    <div style="margin-top: 18px;">
-      <a href="https://youtube.com/@franc-t7e?si=8aGFwkkM3lfu-zk1" target="_blank" style="color:#c084fc; text-decoration: none; font-weight: 500;">📺 YouTube Channel: @franc-t7e</a>
-    </div>
-    <div style="margin-top: 20px;">
-      <a href="https://whatsapp.com/channel/0029VbBZ14b5Ejxym9XVNF2e" target="_blank" style="background: #25D36620; padding: 8px 22px; border-radius: 40px; text-decoration: none; color: #a3e635; font-weight: 600;">💬 WhatsApp Channel → Join Now</a>
+    <div style="margin-top: 18px; display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+      <a href="https://youtube.com/@franc-t7e?si=8aGFwkkM3lfu-zk1" target="_blank" style="color:#c084fc; text-decoration: none; font-weight: 500;">📺 YouTube: @franc-t7e</a>
+      <a href="https://whatsapp.com/channel/0029VbBZ14b5Ejxym9XVNF2e" target="_blank" style="background: #075e54cc; padding: 6px 18px; border-radius: 40px; text-decoration: none; color: white; font-weight: 500;">💬 WhatsApp Channel</a>
     </div>
   </div>
 
-  <!-- Author + Movies site (Dave Tech) with updated branding -->
+  <!-- AUTHOR SECTION : Dave Tech is BACK prominently -->
   <div class="author-box">
     <div class="author-info">
-      <h3>👨‍💻 france-tech</h3>
-      <p style="margin-top: 6px;">Built with passion by <strong>france ally</strong> · Next-gen WhatsApp bot</p>
-      <p style="font-size: 0.9rem; margin-top: 8px;">⚡ Multi-device · commands · group management</p>
+      <h3>👨‍💻 Dave Tech × france-tech</h3>
+      <p style="margin-top: 6px;">Built with passion by <strong>Dave Tech (DaveX)</strong> &nbsp;|&nbsp; france ally collaboration</p>
+      <p style="font-size: 0.9rem; margin-top: 8px;">⚡ Advanced WhatsApp bot · Multi-device · Group tools · Media downloader</p>
+      <div class="dave-badge">⭐ Original creator: DAVE-X | maintained by franceally-art</div>
     </div>
     <a href="https://davexmovies.vercel.app" target="_blank" class="movie-link">
-      🎬 DAVEXMOVIES · Stream & Download
+      🎬 DAVEXMOVIES · Stream & Watch
     </a>
   </div>
 
-  <!-- important notes / session info -->
   <div class="notes">
-    <h4 style="display: flex; gap: 8px; align-items: center;">📌 IMPORTANT NOTES</h4>
+    <h4 style="display: flex; gap: 8px; align-items: center;">📌 IMPORTANT NOTES (Dave Tech legacy)</h4>
     <ul style="margin-top: 12px; margin-left: 20px; line-height: 1.5;">
-      <li>On free panels, <strong>set the session ID in .env</strong> (SESSION_ID value).</li>
+      <li>On free panels, <strong>set session ID in .env</strong> (SESSION_ID=your_code).</li>
       <li>If bot not responding → change session ID or redeploy.</li>
-      <li>Always check the <strong>tutorial video</strong> above for detailed deployment steps.</li>
-      <li>Make sure to fork the repo from: <a href="https://github.com/franceally-art" style="color:#93c5fd;" target="_blank">github.com/franceally-art</a></li>
+      <li>Watch <strong>tutorial video</strong> above for detailed deployment on panel/render/railway.</li>
+      <li>Fork the repo from: <a href="https://github.com/franceally-art" style="color:#93c5fd;" target="_blank">github.com/franceally-art</a> (original DaveX base).</li>
+      <li>Credits: Dave Tech original DAVE-X bot, upgraded & published under france-tech.</li>
     </ul>
   </div>
 
-  <!-- support section: star, fork, share -->
   <div class="support-buttons">
-    <a href="https://github.com/franceally-art/DAVE-X" target="_blank" class="btn btn-dark">⭐ Star repository</a>
-    <a href="https://github.com/franceally-art/DAVE-X/fork" target="_blank" class="btn btn-dark">⑂ Fork project</a>
-    <a href="https://youtu.be/wJKMV0BSqpE?si=6Y11rPD0t2ykoxB8" target="_blank" class="btn btn-dark">📺 Watch tutorial</a>
+    <a href="https://github.com/franceally-art/DAVE-X" target="_blank" class="btn btn-dark">⭐ Star DAVE-X</a>
+    <a href="https://github.com/franceally-art/DAVE-X/fork" target="_blank" class="btn btn-dark">⑂ Fork france-tech</a>
+    <a href="https://youtu.be/wJKMV0BSqpE?si=6Y11rPD0t2ykoxB8" target="_blank" class="btn btn-dark">📺 Tutorial on YouTube</a>
+    <a href="https://whatsapp.com/channel/0029VbBZ14b5Ejxym9XVNF2e" target="_blank" class="btn btn-dark">📱 Join WhatsApp Channel</a>
   </div>
 
-  <!-- footer rights -->
   <div class="footer">
-    © 2026 france-tech · Developed by france ally · All rights reserved.<br>
-    <span style="font-size: 0.7rem;">france-tech WhatsApp Bot | Pair & Deploy instantly</span>
+    <strong>© 2026 Dave Tech (DAVE-X) & france-tech</strong> · All rights reserved.<br>
+    Maintained by france ally · Original bot by Dave Tech · Pair & deploy instantly<br>
+    <span style="font-size: 0.7rem;">france-tech | WhatsApp bot | session auth</span>
   </div>
 </div>
 </body>
